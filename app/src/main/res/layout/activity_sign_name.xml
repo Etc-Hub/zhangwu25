@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="150dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/sign_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="请输入你的个性签名"
+        android:maxLength="18"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back_tx"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:background="#008000"
+            android:gravity="center"
+            android:text="返回"
+            android:textAllCaps="false"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:id="@+id/save_tx"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#008000"
+            android:gravity="center"
+            android:text="保存"
+            android:textAllCaps="false"
+            android:textColor="#F5F5F5" />
+    </LinearLayout>
+
+
+</LinearLayout>

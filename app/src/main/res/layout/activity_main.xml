@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/main_logo_img"
+            android:layout_width="70dp"
+            android:scaleType="centerCrop"
+            android:layout_height="70dp"
+            android:src="@drawable/time1">
+        </ImageView>
+        <TextView
+            android:id="@+id/main_name_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="23sp"
+            android:layout_toRightOf="@+id/main_logo_img"
+            android:text="用户名"/>
+        <TextView
+            android:layout_toRightOf="@+id/main_logo_img"
+            android:layout_below="@+id/main_name_tx"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="18sp"
+            android:id="@+id/main_sign_name_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="点击设置个性签名"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
